@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Flashcards</string>
+    <string name="setting">setting</string>
+    <string name="add">追加</string>
+    <string name="cancel">キャンセル</string>
+    <string name="change">変更</string>
+    <string name="before">移動するフォルダ名</string>
+    <string name="after">移動先フォルダ名</string>
+    <string name="add_f">フォルダ</string>
+    <string name="add_c">カード</string>
+    <string name="folder_add">フォルダ名を入力</string>
+    <string name="card_add">カード名を入力</string>
+    <string name="mood">TEST</string>
+    <string name="random">ランダムモード</string>
+    <string name="mark">マークのみ</string>
+    <string name="title_activity_test">Test</string>
+    <string name="tab_text_1">Question</string>
+    <string name="tab_text_2">Answer</string>
+    <string name="icon2">Icon2</string>
+    <string name="icon1">Icon1</string>
+    <string name="a">A:</string>
+    <string name="b">B:</string>
+    <string name="c">C:</string>
+    <string name="d">D:</string>
+    <string name="migi">⇒</string>
+    <string name="explanation">explanation:</string>
+    <string name="todo">TODO</string>
+    <string name="none">none</string>
+</resources>
