@@ -14,8 +14,6 @@ import androidx.fragment.app.DialogFragment
 class FolderAddDialog: DialogFragment() {
 
     public interface DialogListener{
-        //public fun onDialogPositive(dialog: DialogFragment)//今回は使わない。色んなダイアログで使いまわす際には使います。
-        //public fun onDialogNegative(dialog: DialogFragment)
         public fun onDialogTextRecieve(dialog: DialogFragment,text: String)//Activity側へStringを渡します。
     }
     var listener:DialogListener? = null
@@ -26,8 +24,6 @@ class FolderAddDialog: DialogFragment() {
         val inflater = activity?.layoutInflater
         val s_View = inflater?.inflate(R.layout.dialog_add_folder, null)
 
-        // Inflate and set the layout for the dialog
-        // Pass null as the parent view because its going in the dialog layout
         builder.setView(s_View)
             .setTitle("folder name?")
             // Add action buttons
