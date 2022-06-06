@@ -12,20 +12,15 @@ import androidx.fragment.app.DialogFragment
 class CardAddDialog :DialogFragment() {
 
     public interface DialogListener{
-        //public fun onDialogPositive(dialog: DialogFragment)//今回は使わない。色んなダイアログで使いまわす際には使います。
-        //public fun onDialogNegative(dialog: DialogFragment)
         public fun onDialogTextRecieve(dialog: DialogFragment, text: String)//Activity側へStringを渡します。
     }
     var listener:DialogListener? = null
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val builder = AlertDialog.Builder(activity)
-        // Get the layout inflater
         val inflater = activity?.layoutInflater
         val s_View = inflater?.inflate(R.layout.dialog_add_card, null)
 
-        // Inflate and set the layout for the dialog
-        // Pass null as the parent view because its going in the dialog layout
         builder.setView(s_View)
             .setTitle("card name?")
             // Add action buttons
